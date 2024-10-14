@@ -1127,7 +1127,7 @@ List<String> contentMessages = [
                     child:  TabBar(
                       tabs: [
                         Tab(text: 'Quilts\n    ${value.toInt()}',height: 60,),
-                        Tab(text: 'Trophies\n 0',height: 60,),
+                        Tab(text: 'Trophies\n   0',height: 60,),
                         // Tab(text: 'Coins\n  250',height: 60,),
                       ],
                       labelColor: Colors.orange, // Color of selected tab label
