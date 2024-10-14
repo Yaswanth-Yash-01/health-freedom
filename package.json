@@ -1,0 +1,22 @@
+
+
+{
+
+    "name": "flutter-web-app",
+    "version": "1.0.0",
+    "description": "A Flutter web app",
+    "main": "index.js",
+    "scripts": {
+      "start": "http-server ./build/web -p $PORT"
+    },
+    "dependencies": {
+      "http-server": "^0.12.3"
+    },
+
+    "engines": {
+  "node": ">=14.x"
+}
+
+  }
+  
+
