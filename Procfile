@@ -1,3 +1,4 @@
-web: npx serve -s build/web -l ${PORT}
+web: npx http-server build/web -p ${PORT}
+
 
 
