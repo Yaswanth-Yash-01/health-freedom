@@ -1,1 +1,2 @@
-web: flutter build web && serve -s build/web
+web: npx http-server build/web -p ${PORT}
+
