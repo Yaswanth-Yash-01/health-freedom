@@ -2,10 +2,10 @@ import 'dart:convert';
 import 'package:flutter_application_2/activity.dart';
 import 'package:flutter_application_2/knowledgemap.dart';
 // import 'package:flutter_application_2/community.dart';
-import 'package:get/get_connect/http/src/utils/utils.dart';
+
 
 import 'history.dart';
-import 'package:get/get.dart';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_2/AuthProvider.dart';
@@ -15,7 +15,7 @@ import 'package:stepper_list_view/stepper_list_view.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:flutter_application_2/stepper.dart';
 import 'globals.dart';
-import 'stepper.dart';
+
 
 
 class journal_menu1 extends StatefulWidget {
