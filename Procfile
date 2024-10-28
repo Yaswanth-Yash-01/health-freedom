@@ -1,4 +1,2 @@
-web: dart run server.dart
-
-
+web: npx http-server build/web -p ${PORT}
 
