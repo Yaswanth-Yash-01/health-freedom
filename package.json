@@ -1,34 +1,15 @@
 {
-
     "name": "healthfreedom",
-
-    "version": "1.0.0",
-
-    "description": "A Flutter web app",
-
-    "main": "index.js",
-
+    "version": "0.0.1",
     "scripts": {
-
-        "start": "http-server ./build/web -p $PORT"
-
+      "start": "npx http-server ./build/web -p ${PORT}",
+      "build": "flutter build web"
     },
-
     "dependencies": {
-
-        "express": "^4.21.1",
-
-        "http-server": "^14.1.1",
-
-        "serve": "^14.2.4"
-
+      "http-server": "^0.12.3"
     },
-
     "engines": {
-
-        "node": ">=14.x"
-
+      "node": ">=14.x"
     }
-
-}
-
+  }
+  
