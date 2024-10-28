@@ -278,7 +278,9 @@ late AnimationController _controller;
                 );
                final ui = (responseData['id']);
                 print(responseData);
-                
+                print('Login button pressed');
+print('Username: ${_username.text}');
+print('Password: ${_password.text}');
                
               
                 if (responseData != null) {
