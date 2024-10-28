@@ -1,15 +1,11 @@
 {
-    "name": "healthfreedom",
-    "version": "0.0.1",
-    "scripts": {
-      "start": "npx http-server ./build/web -p ${PORT}",
-      "build": "flutter build web"
-    },
-    "dependencies": {
-      "http-server": "^0.12.3"
-    },
-    "engines": {
-      "node": ">=14.x"
-    }
+  "name": "flutter-web-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "http-server build/web -p ${PORT}"
+  },
+  "dependencies": {
+    "http-server": "^14.0.0"
   }
+}
   

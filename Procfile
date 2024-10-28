@@ -1,2 +1,3 @@
-web: npx http-server build/web -p ${PORT}
+npx http-server build/web -p ${PORT} --cors
+
 
