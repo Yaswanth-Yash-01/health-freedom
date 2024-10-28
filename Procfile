@@ -1,4 +1,4 @@
-web: serve -s build/web
+web: dart run server.dart
 
 
 
